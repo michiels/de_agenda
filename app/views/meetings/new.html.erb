@@ -1,0 +1,17 @@
+<%= content_tag_for(:article, @meeting) do %>
+<h1>Nieuwe vergadering</h1>
+
+<%= form_for @meeting, remote: true do |f| %>
+<p>
+  <%= f.label :scheduled_at %>
+  <%= f.datetime_field :scheduled_at %>
+  <%= f.submit "Datum opslaan" %>
+</p>
+<% end %>
+
+<section class="agenda">
+  <h2>Agenda</h2>
+</section>
+
+<% end %>
+

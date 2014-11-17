@@ -1,0 +1,8 @@
+<%= content_tag_for(:article, @group) do %>
+  <h1><%= @group.name %></h1>
+
+  <h2>Vergaderingen</h2>
+
+  <p><%= link_to "Maak een agenda", new_group_meeting_path(@group) %></p>
+
+<% end %>

@@ -1,0 +1,11 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  scheduled_at: 2014-11-17 21:37:34
+  name: MyString
+  group_id: 1
+
+two:
+  scheduled_at: 2014-11-17 21:37:34
+  name: MyString
+  group_id: 1
